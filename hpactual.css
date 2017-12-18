@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: 'arapey';
+    font-size: 100%;
+    background-color: white;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#title {
+    background-color: #222222;
+    color: white;
+    padding: 2em;
+    font-size: 2em;
+    letter-spacing: .3em;
+}
+
+#titlefooter {
+    margin-top: -3em;
+    color: white;
+    margin-bottom: 1.9em;
+    letter-spacing: .2em;
+}
+
+
+#hpdesign {
+    color: #7b7bff;
+    letter-spacing: .15em;
+}
+
+#photographydesign {
+    color: #ff5252;
+}
+
+#address {
+    background-color: #ff4f4f;
+    color: black;
+    padding: 1em;
+    font-family: 'pontano sans';
+}
+
+
+nav ul li {
+    color: black;
+    font-family: 'pontano sans';
+    font-size: .8em;
+}
+
+
+#hours {
+    margin-top: -.5em;
+    margin-bottom: .5em;
+    color: #000000;
+    letter-spacing: .1em;
+}
+
+#services {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    letter-spacing: .1em;
+}
+
+#servicecolor li {
+    color: black;
+}
+
+nav {
+    background-color: #ff9200;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#midframe {
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffff00;
+    padding-bottom: 1.5em;
+    width: 100%;
+    border-top: none;
+
+}
+
+#packages {
+    border: px solid red;
+    width: 30em;
+    display: inline-block;
+    font-family: 'pontano sans';
+    font-size: .75em;
+    line-height: 2em;
+    padding-top: 1em;
+    color: #000000;
+
+}
+
+#standardspace {
+    margin-bottom: .3em;
+    border: 1px solid #000000;
+    letter-spacing: .1em;
+    border-radius: 1em;
+}
+
+#blackwhitespace {
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+#package {
+    word-spacing: 1.8em;
+    font-weight: bold;
+}
+
+#pricing {
+    word-spacing: 2.4em;
+}
+
+#eight10 {
+    word-spacing: 3.8em;
+}
+
+#five7 {
+    word-spacing: 4.2em;
+}
+
+#wallets {
+    word-spacing: 2.5em
+}
+
+#or-wallets {
+    font-size: 8px;
+    display: inline-block;
+    padding-left: 0px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 0px 10px 0px 10px;
+    background-color: black;
+    color: white;
+    line-height: 10px;
+
+}
+
+#or-wallets2 {
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: -10px;
+
+}
+
+#or-wallets2:first-of-type {
+    padding-left: 0
+}
+
+.choose-up-to-space {
+    display: inline-block;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.choose-up-to-space1 {
+    display: inline-block;
+    font-size: 8px;
+    margin-left: 0px;
+}
+
+.choose-up-to-space2 {
+    display: inline-block;
+    font-size: 8px;
+    margin-left: 0px;
+}
+
+
+
+#midframe section img {
+    display: inline-block;
+
+}
+
+#reprintspace {
+    margin-bottom: .3em;
+    border: 1px solid black;
+    letter-spacing: .1em;
+    border-radius: 1em;
+
+}
+
+#reprints {
+    border: px solid red;
+    width: 30em;
+    display: inline-block;
+    padding: 1em;
+    font-family: pontano sans;
+    font-size: .75em;
+    line-height: 3.2em;
+    color: #000000;
+
+}
+
+
+#colorlabel {
+    text-align: center;
+    float: none;
+}
+
+
+#colorreprint {
+    border: px solid red;
+    float: left;
+    margin-left: 3em;
+}
+
+
+#blackwhiterp {
+    border: px solid red;
+    float: right;
+    margin-right: 3em;
+}
+
+#passports {
+    background-color: #ffff00;
+    font-family: 'pontano sans';
+    font-size: .70em;
+    text-align: center;
+    padding: .5em;
+    margin-bottom: 1em;
+    margin-top: -5em;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 1em;
+
+}
+
+#filler {
+    background-color: #ffff00;
+    border: 2em solid #ffff00;
+    margin-top: -4em;
+}
+
+
+
+#locationmap {
+    display: inline-block;
+
+}
+
+#about {
+    background-color: #222222;
+    height: 30em;
+}
+
+#aboutline {
+    background-color: #646464;
+    color: white;
+    padding: .5em;
+    border-radius: .25em;
+    width:
+}
+
+#aboutus {
+    display: inline-block;
+    width: 26em;
+    height: 20em;
+    border: px solid #ffff00;
+    background-color: #222222;
+    overflow: auto;
+    color: #ffffff;
+    border: 4px double #000000;
+
+
+
+
+}
+
+#footer {
+    background-color: #343434;
+    color: white;
+    padding: 1.25em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    margin-bottom: -1em;
+    clear: both;
+    font-family: kreon;
+    letter-spacing: .1em;
+    font-size: .8em;
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.plaza-logo{
+    padding:20px;
+    background-color:black;
+    color:white;
+    width:100%;
+}
+
+.logos img{
+    width:150px;
+    height:150px;
+    padding:15px;
+    border-radius:20px;
+}
+
+#plaza-text{
+    margin:10px 0 0 0;
+}
+
+@media screen and (min-width:1200px) {
+
+    #midframe section {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 1em;
+        margin-bottom: -.3em;
+
+    }
+    
+   
+    #midframe #packages {
+        margin-top: 1.4em;
+        margin:0 0 0 px;
+        
+    }
+
+    #passports {
+        display: inline-block;
+        background-color: #ffff00;
+        margin-top: -5em;
+        margin-bottom: 2em;
+    }
+    #footer {
+        display: inline-block;
+
+    }
+
+    #aboutus {
+        vertical-align: top;
+        text-align: center;
+        margin-top: 2.5em;
+        padding: 1em;
+        display: inline-block;
+    }
+    
+    
+}
+
+@media screen and (min-width:600px) {
+    
+    #aboutus {
+        vertical-align: top;
+        text-align: center;
+        margin-top: 2.5em;
+        padding: 1em;
+        display: inline-block;
+
+    }
+    
+    @media (max-width:368px){
+        #packages{
+            transform:translate(-50%);
+        }
+    }
