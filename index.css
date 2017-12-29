@@ -262,68 +262,39 @@ nav ul {
 
 }
 
-#about {
-    background-color: #222222;
-    height: 30em;
-}
-
-#aboutline {
-    background-color: #646464;
-    color: white;
-    padding: .5em;
-    border-radius: .25em;
-    width:
-}
-
-#aboutus {
-    display: inline-block;
-    width: 26em;
-    height: 20em;
-    border: px solid #ffff00;
-    background-color: #222222;
-    overflow: auto;
-    color: #ffffff;
-    border: 4px double #000000;
-
-
-
-
-}
-
 #footer {
-    background-color: #343434;
+    background-color: #464646;
     color: white;
     padding: 1.25em;
     padding-top: 2em;
     padding-bottom: 5em;
     margin-bottom: -1em;
     clear: both;
-    font-family: kreon;
+    font-family: "pontano sans";
     letter-spacing: .1em;
     font-size: .8em;
-    overflow: auto;
     width: 100%;
     display: inline-block;
-
 }
 
-.plaza-logo{
-    padding:20px;
-    background-color:black;
-    color:white;
-    width:100%;
+.plaza-logo {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family:"pontano sans"
 }
 
-.logos img{
-    width:150px;
-    height:150px;
-    padding:15px;
-    border-radius:20px;
+.logos img {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 20px;
 }
 
-#plaza-text{
-    margin:10px 0 0 0;
-    text-transform:uppercase;
+#plaza-text {
+    margin: 10px 0 10px 0;
+
 }
 
 @media screen and (min-width:1200px) {
@@ -335,12 +306,12 @@ nav ul {
         margin-bottom: -.3em;
 
     }
-    
-   
+
+
     #midframe #packages {
         margin-top: 1.4em;
-        margin:0 0 0 px;
-        
+        margin: 0 0 0 px;
+
     }
 
     #passports {
@@ -361,23 +332,14 @@ nav ul {
         padding: 1em;
         display: inline-block;
     }
-    
-    
+
+
 }
 
-@media screen and (min-width:600px) {
-    
-    #aboutus {
-        vertical-align: top;
-        text-align: center;
-        margin-top: 2.5em;
-        padding: 1em;
-        display: inline-block;
+@media(max-width:700px){
+    .logos img{
+        width:40%
+    }
+}
 
-    }
-    
-    @media (max-width:368px){
-        #packages{
-            transform:translate(-50%);
-        }
-    }
+
